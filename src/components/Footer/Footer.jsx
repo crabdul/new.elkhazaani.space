@@ -1,6 +1,6 @@
-import React, { Component } from "react";
-import { Link } from "gatsby";
-import "./Footer.css";
+import React, { Component } from 'react';
+import { Link } from 'gatsby';
+import './Footer.css';
 
 class Footer extends Component {
     render() {
@@ -19,7 +19,7 @@ class Footer extends Component {
                         <button>Subscribe</button>
                     </Link>
                     <h4>
-                        Based on{" "}
+                        Based on{' '}
                         <a href="https://github.com/Vagr9K/gatsby-advanced-starter">
                           Gatsby Advanced Starter
                         </a>
