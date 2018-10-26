@@ -10,6 +10,7 @@ export default class MainLayout extends React.Component {
             <div>
                 <Helmet>
                     <meta name="description" content={config.siteDescription} />
+                    <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet" />
                 </Helmet>
                 <div className="wrapper">
                     {children}

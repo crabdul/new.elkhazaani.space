@@ -12,6 +12,10 @@ html, body {
     padding: 0;
 }
 
+body {
+    font: 400 1.1rem/1.5 "Karla", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 .wrapper {
     max-width: calc(800px - (30px * 2));
     margin-right: auto;
