@@ -17,6 +17,11 @@ class Index extends React.Component {
                     <h1>Karim El Khazaani</h1>
                     <p>Front-end web developer based in London</p>
                     <PostListing postEdges={postEdges} />
+                    <p>
+                        <a href='https://github.com/crabdul'>crabdul</a>
+                        {' '}/{' '}
+                        <a href='mailto:karim.elhazaani@zoho.com' >karim.elhazaani@zoho.com</a>
+                    </p>
                 </div>
             </Layout>
         );
