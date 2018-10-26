@@ -1,0 +1,10 @@
+.post-meta {
+    display: inline-block;
+    font-size: 15px;
+    line-height: 24px;
+    color: #828282;
+}
+
+.post-link {
+    display: inline-block;
+}
