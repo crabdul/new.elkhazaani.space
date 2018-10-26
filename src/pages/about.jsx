@@ -5,16 +5,16 @@ import About from "../components/About/About";
 import config from "../../data/SiteConfig";
 
 class AboutPage extends Component {
-  render() {
-    return (
-      <Layout>
-        <div className="about-container">
-          <Helmet title={`About | ${config.siteTitle}`} />
-          <About />
-        </div>
-      </Layout>
-    );
-  }
+    render() {
+        return (
+            <Layout>
+                <div className="about-container">
+                    <Helmet title={`About | ${config.siteTitle}`} />
+                    <About />
+                </div>
+            </Layout>
+        );
+    }
 }
 
 export default AboutPage;

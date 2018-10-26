@@ -9,7 +9,10 @@ module.exports = {
         "components": [ "Link" ],
         "specialLink": [ "hrefLeft", "hrefRight", "to" ],
         "aspects": [ "noHref", "invalidHref", "preferButton" ]
-        }]
+        }],
+        "indent": ["error", 4],
+        "react/jsx-indent": ["error", 4],
+        "react/jsx-indent-props": ["error", 4],
     },
     "settings": {
         "import/core-modules": []
