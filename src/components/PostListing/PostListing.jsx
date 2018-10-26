@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import { Link } from 'gatsby';
 
 class PostListing extends React.Component {
@@ -23,9 +23,12 @@ class PostListing extends React.Component {
             <div>
                 {/* Your post list here. */
                     postList.map(post => (
-                        <Link to={post.path} key={post.title}>
-                            <h1>{post.title}</h1>
-                        </Link>
+                        <Fragment>
+                            <span>{post.date}</span>
+                            <Link to={post.path} key={post.title}>
+                                <h2>{post.title}</h2>
+                            </Link>
+                        </Fragment>
                     ))
                 }
             </div>
