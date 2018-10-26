@@ -1,12 +1,28 @@
+:root {
+    --container-width: 800px;
+}
+
 * {
     box-sizing: border-box;
 }
 
-html {
+html, body {
     height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
-body {
-    margin: 0;
-    padding: 20px;
+.wrapper {
+    max-width: calc(800px - (30px * 2));
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+@media only screen and (min-width: var(--container-width)) {
+    .wrapper {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
 }
