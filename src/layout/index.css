@@ -39,10 +39,15 @@ a:hover:not(.site-title) {
     text-decoration: underline;
 }
 
+.page {
+    margin-bottom: 32px;
+}
+
 .wrapper {
     max-width: calc(800px - (30px * 2));
     margin-right: auto;
     margin-left: auto;
+    padding-bottom: 32px;
     padding-right: 15px;
     padding-left: 15px;
 }
