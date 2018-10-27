@@ -1,10 +1,11 @@
 import React from 'react';
 import Helmet from 'react-helmet';
-import { graphql } from 'gatsby';
+import { graphql, Link } from 'gatsby';
 import Layout from '../layout';
 import PostTags from '../components/PostTags/PostTags';
 import SEO from '../components/SEO/SEO';
 import config from '../../data/SiteConfig';
+import { formatDateLong } from '../lib/formatters';
 import './tomorrow.css';
 import './post.css';
 
@@ -27,9 +28,18 @@ export default class PostTemplate extends React.Component {
                     </Helmet>
                     <SEO postPath={slug} postNode={postNode} postSEO />
                     <div>
-                        <h1>{post.title}</h1>
+                        <header className='site-header'>
+                            <Link
+                                className='site-title'
+                                to='/'
+                            >
+                                Karim El Khazaani
+                            </Link>
+                        </header>
+                        <h1 className='post-title'>{post.title}</h1>
+                        <p className='post-meta'>{formatDateLong(post.date)}</p>
                         <div dangerouslySetInnerHTML={{ __html: postNode.html }} />
-                        <div className="post-meta">
+                        <div className='post-meta'>
                             <PostTags tags={post.tags} />
                         </div>
                     </div>

@@ -5,13 +5,14 @@ import Layout from '../layout';
 import PostListing from '../components/PostListing/PostListing';
 import SEO from '../components/SEO/SEO';
 import config from '../../data/SiteConfig';
+import './index.css';
 
 class Index extends React.Component {
     render() {
         const postEdges = this.props.data.allMarkdownRemark.edges;
         return (
             <Layout>
-                <div className="index-container">
+                <div className="home">
                     <Helmet title={config.siteTitle} />
                     <SEO />
                     <h1>Karim El Khazaani</h1>

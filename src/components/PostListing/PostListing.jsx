@@ -1,9 +1,7 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import { format } from 'date-fns';
+import { formatDate } from '../../lib/formatters';
 import './PostListing.css';
-
-const formatDate = (date) => format(date, 'D MMM, YYYY');
 
 class PostListing extends React.Component {
     getPostList() {

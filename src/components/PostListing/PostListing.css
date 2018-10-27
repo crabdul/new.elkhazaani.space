@@ -2,8 +2,11 @@
     margin-top: 2rem;
 }
 
-.post-meta {
+span.post-meta {
     position: absolute;
+}
+
+.post-meta {
     line-height: 1.5rem;
     color: #828282;
 }
