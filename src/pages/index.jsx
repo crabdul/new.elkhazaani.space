@@ -12,11 +12,23 @@ class Index extends React.Component {
         const postEdges = this.props.data.allMarkdownRemark.edges;
         return (
             <Layout>
-                <div className="home">
+                <div className='home'>
                     <Helmet title={config.siteTitle} />
                     <SEO />
                     <h1>Karim El Khazaani</h1>
-                    <p>Front-end web developer based in London</p>
+                    <p>
+                        Front-end web developer<br />
+                        currently working on a django and React codebase <br />
+                        at{' '}
+                        <a
+                            href='http://octopus.energy'
+                            target='_blank'
+                            rel='noopener noreferrer'
+                        >
+                            <span role="img" aria-label="Octopus">🐙</span>
+                            <span role="img" aria-label="Energy">⚡</span>
+                        </a>
+                    </p>
                     <PostListing postEdges={postEdges} />
                     <p>
                         <a href='https://github.com/crabdul'>crabdul</a>
@@ -31,7 +43,7 @@ class Index extends React.Component {
 
 export default Index;
 
-/* eslint no-undef: "off" */
+/* eslint no-undef: 'off' */
 export const pageQuery = graphql`
   query IndexQuery {
     allMarkdownRemark(
