@@ -29,6 +29,16 @@ h2 {
     font-size: 1.3rem;
 }
 
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover:not(.site-title) {
+    color: #FF4040;
+    text-decoration: underline;
+}
+
 .wrapper {
     max-width: calc(800px - (30px * 2));
     margin-right: auto;

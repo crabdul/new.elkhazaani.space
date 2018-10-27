@@ -38,7 +38,9 @@ export default class PostTemplate extends React.Component {
                         </header>
                         <h1 className='post-title'>{post.title}</h1>
                         <p className='post-meta'>{formatDateLong(post.date)}</p>
-                        <div dangerouslySetInnerHTML={{ __html: postNode.html }} />
+                        <div className="post-content">
+                            <div dangerouslySetInnerHTML={{ __html: postNode.html }} />
+                        </div>
                         <div className='post-meta'>
                             <PostTags tags={post.tags} />
                         </div>

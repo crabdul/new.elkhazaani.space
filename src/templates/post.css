@@ -24,3 +24,7 @@ header.site-header {
 p.post-meta {
     text-align: center;
 }
+
+.post-content a {
+    color: #FF4040;
+}
