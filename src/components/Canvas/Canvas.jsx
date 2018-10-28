@@ -23,8 +23,11 @@ class Canvas extends Component {
             1000
         )
         const renderer = new THREE.WebGLRenderer({ antialias: true })
-        const geometry = new THREE.BoxGeometry(1, 1, 1)
-        const material = new THREE.MeshBasicMaterial({ color: '#433F81' })
+        const geometry = new THREE.SphereGeometry(1, 1, 1)
+        const material = new THREE.MeshBasicMaterial({
+            color: 0xff0000,
+            wireframe: true,
+        })
         const cube = new THREE.Mesh(geometry, material)
 
         camera.position.z = 4
