@@ -2,6 +2,7 @@ import React from 'react';
 import Helmet from 'react-helmet';
 import { graphql } from 'gatsby';
 import Layout from '../layout';
+import Canvas from '../components/Canvas/Canvas';
 import PostListing from '../components/PostListing/PostListing';
 import SEO from '../components/SEO/SEO';
 import config from '../../data/SiteConfig';
@@ -15,6 +16,7 @@ class Index extends React.Component {
                 <div className='home'>
                     <Helmet title={config.siteTitle} />
                     <SEO />
+                    <Canvas />
                     <h1>Karim El Khazaani</h1>
                     <p>
                         Front-end web developer<br />
