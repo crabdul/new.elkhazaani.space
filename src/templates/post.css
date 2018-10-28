@@ -1,5 +1,26 @@
-.post-meta {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.post-title,
+.post-date,
+.site-title {
+    text-align: center;
+}
+
+header.site-header {
+    padding-top: 24px;
+    padding-bottom: 18px;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+}
+
+.site-title {
+    text-decoration: none;
+    border-bottom: 2px solid #FF4040;
+}
+
+.post-title {
+    font-size: 1.6rem;
+}
+
+p.post-meta {
+    text-align: center;
 }

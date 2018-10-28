@@ -1,5 +1,7 @@
 import React from 'react';
 import { Link } from 'gatsby';
+import { formatDate } from '../../lib/formatters';
+import './PostListing.css';
 
 class PostListing extends React.Component {
     getPostList() {
@@ -20,15 +22,23 @@ class PostListing extends React.Component {
     render() {
         const postList = this.getPostList();
         return (
-            <div>
+            <ul className='post-list'>
                 {/* Your post list here. */
                     postList.map(post => (
-                        <Link to={post.path} key={post.title}>
-                            <h1>{post.title}</h1>
-                        </Link>
+                        <li key={post.title}>
+                            <span className='post-meta'>
+                                {formatDate(post.date)}
+                            </span>
+                            <Link
+                                className='post-link'
+                                to={post.path}
+                            >
+                                {post.title}
+                            </Link>
+                        </li>
                     ))
                 }
-            </div>
+            </ul>
         );
     }
 }
