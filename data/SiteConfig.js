@@ -10,6 +10,7 @@ module.exports = {
     siteFBAppID: '', // FB Application ID for using app insights
     googleAnalyticsID: '', // GA tracking ID.
     postDefaultCategoryID: 'Tech', // Default category for posts.
+    userName: 'Karim El Khazaani',
     dateFromFormat: 'YYYY-MM-DD', // Date format used in the frontmatter.
     dateFormat: 'DD/MM/YYYY', // Date format for display.
     copyright: 'Copyright © 2018. Karim El Khazaani', // Copyright string for the footer of the website and RSS feed.
