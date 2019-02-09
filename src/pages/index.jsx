@@ -20,8 +20,7 @@ class Index extends React.Component {
                     <h1>Karim El Khazaani</h1>
                     <p>
                         Front-end web developer<br />
-                        currently working on a django and React codebase <br />
-                        at{' '}
+                        currently at{' '}
                         <a
                             href='http://octopus.energy'
                             target='_blank'
