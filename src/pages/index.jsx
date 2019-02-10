@@ -3,6 +3,7 @@ import Helmet from 'react-helmet';
 import { graphql } from 'gatsby';
 import Layout from '../layout';
 import Canvas from '../components/Canvas/Canvas';
+import Footer from '../components/Footer/Footer';
 import PostListing from '../components/PostListing/PostListing';
 import SEO from '../components/SEO/SEO';
 import config from '../../data/SiteConfig';
@@ -31,11 +32,7 @@ class Index extends React.Component {
                         </a>
                     </p>
                     <PostListing postEdges={postEdges} />
-                    <p>
-                        <a href='https://github.com/crabdul'>crabdul</a>
-                        {' '}/{' '}
-                        <a href='mailto:karim.elhazaani@zoho.com' >karim.elhazaani@zoho.com</a>
-                    </p>
+                    <Footer />
                 </div>
             </Layout>
         );

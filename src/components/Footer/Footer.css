@@ -1,25 +1,21 @@
-.footer {
-    justify-content: center;
-    align-content: center;
-    padding: 10px 5px 5px;
-}
-
-.notice-container {
+footer {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
     align-content: center;
-    align-items: center;
-    margin-top: 25px;
 }
 
-@media (max-width: 640px - 1px) {
-    .notice-container {
-        justify-content: space-around;
-    }
+footer > a {
+    margin-right: 8px;
 }
 
-.notice-container h4 {
-    text-align: center;
-    margin: 0;
+
+#footer-email {
+    width: 22px;
+}
+
+#footer-linkedin {
+    width: 20px;
+}
+
+#footer-github {
+    width: 22px;
 }
