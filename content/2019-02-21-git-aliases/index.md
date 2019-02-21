@@ -7,7 +7,7 @@ tags:
     - git
 ---
 
-I've collated some git commands which are an essential part of my workflow (Interactive rebasing where would I be without you 😋). Hopefully you'll find some nuggets of wisdom below.
+I've collated some git commands which are an essential part of my workflow (interactive rebasing - where would I be without you 😋). Hopefully you'll find some nuggets of wisdom below.
 
 As they are verbose, I've aliased them to save those precious seconds of typing. For aliasing, I use my `.gitconfig` file rather than aliasing in my `.bashrc` file. I prefer keeping my `.bashrc` file clutter free and I figured if Git gives me a place to put aliases, I should put them there 🤷🏻‍♂️.
 
