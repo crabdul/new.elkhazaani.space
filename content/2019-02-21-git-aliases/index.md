@@ -75,8 +75,8 @@ Want to get rid of all uncommitted changes
 git checkout -- .
 ```
 
-Last but not least
-Want to view all your aliases?
+Last but not least - 
+want to view all your aliases?
 
 ```bash
 git config -l | grep alias | cut -c 7-
