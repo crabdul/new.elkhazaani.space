@@ -7,9 +7,9 @@ tags:
     - git
 ---
 
-I've collated some git commands which are an essential part of my workflow. As they are verbose, I've aliased them to save those precious seconds of typing. 
+I've collated some git commands which are an essential part of my workflow (Interactive rebasing where would I be without you 😋). Hopefully you'll find some nuggets of wisdom below.
 
-For aliasing, I use my `.gitconfig` file rather than aliasing in my `.bashrc` file. I prefer keeping my `.bashrc` file clutter free and I figured if Git gives me a place to put aliases, I should put them there 🤷🏻‍♂️.
+As they are verbose, I've aliased them to save those precious seconds of typing. For aliasing, I use my `.gitconfig` file rather than aliasing in my `.bashrc` file. I prefer keeping my `.bashrc` file clutter free and I figured if Git gives me a place to put aliases, I should put them there 🤷🏻‍♂️.
 
 Git has a quick and easy way of adding aliases to your `.gitconfig`.
 Let's alias `checkout` to `co`.
