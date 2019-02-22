@@ -1,5 +1,5 @@
 ---
-title: 'Git aliases for a better workflow'
+title: 'Git commands for a better workflow'
 cover: ''
 date: '2019-02-21'
 category: 'tech'
