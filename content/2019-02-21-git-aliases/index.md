@@ -33,7 +33,7 @@ Want to quickly stage all your modified files
 git ls-files | xargs git add
 ```
 
-Want to use your re-use your last commit message when commiting staged changes
+Want to use your re-use last commit message when commiting staged changes
 
 ```bash
 git commit -C HEAD@{1}
