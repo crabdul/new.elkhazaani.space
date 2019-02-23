@@ -39,6 +39,15 @@ a:hover:not(.site-title) {
     text-decoration: underline;
 }
 
+code {
+	padding: 2px 4px;
+	font-size: 14px;
+	color: #d14;
+	background: #faf9f9;
+	border: 1px solid #ebeaea;
+	border-radius: 1px;
+}
+
 .page {
     margin-bottom: 32px;
 }
