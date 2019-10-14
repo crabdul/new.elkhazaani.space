@@ -24,7 +24,7 @@ class Index extends React.Component {
             <br />
             formerly at{" "}
             <a
-              href="http://octopus.energy"
+              href="https://octopus.energy"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -37,7 +37,7 @@ class Index extends React.Component {
             </a>
           </p>
           <a
-            href="http://octopus.energy"
+            href="https://elkhazaani.space"
             target="_blank"
             rel="noopener noreferrer"
           >
