@@ -41,12 +41,12 @@ class Index extends React.Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-            My
+            My{" "}
             <span role="img" aria-label="Camera">
               📸
             </span>
-            blog
-          </a>
+            {" "}blog
+    </a>
           <PostListing postEdges={postEdges} />
           <Footer />
         </div>
