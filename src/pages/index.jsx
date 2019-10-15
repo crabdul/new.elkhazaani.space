@@ -37,7 +37,7 @@ class Index extends React.Component {
             </a>
           </p>
           <a
-            href="https://elkhazaani.space"
+            href="https://crabland.co.uk"
             target="_blank"
             rel="noopener noreferrer"
           >
