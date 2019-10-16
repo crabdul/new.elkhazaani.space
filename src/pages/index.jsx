@@ -36,17 +36,29 @@ class Index extends React.Component {
               </span>
             </a>
           </p>
-          <a
-            href="https://crabland.co.uk"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            My{" "}
-            <span role="img" aria-label="Camera">
-              📸
-            </span>
-            {" "}blog
-    </a>
+          <div>
+            <a
+              href="https://crabland.co.uk"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              My{" "}
+              <span role="img" aria-label="Camera">
+                📸
+              </span>{" "}
+              blog
+            </a>
+          </div>
+          <div>
+            <a
+              href="https://github.com/crabdul/.dotfiles/blob/master/.init.vim"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              My cherished vimrc file
+            </a>
+          </div>
+          <h3>Writing</h3>
           <PostListing postEdges={postEdges} />
           <Footer />
         </div>
