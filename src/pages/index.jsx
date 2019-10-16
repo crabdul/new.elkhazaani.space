@@ -58,6 +58,11 @@ class Index extends React.Component {
               My cherished vimrc file
             </a>
           </div>
+          <div>
+            <a href="/cv.pdf" target="_blank" rel="noopener noreferrer">
+              My CV
+            </a>
+          </div>
           <h3>Writing</h3>
           <PostListing postEdges={postEdges} />
           <Footer />
