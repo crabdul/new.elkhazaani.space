@@ -35,7 +35,7 @@
         "react-helmet": "^5.2.0",
         "react-share": "^2.4.0",
         "react-twitter-widgets": "^1.7.1",
-        "three": "^0.101.1",
+        "three": "^0.125.0",
         "url-join": "^4.0.0"
     },
     "devDependencies": {
